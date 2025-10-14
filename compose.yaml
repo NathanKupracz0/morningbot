@@ -1,0 +1,8 @@
+version: "3"
+services:
+  morningbot:
+    image: morningbot:latest
+    env_file: .env
+    build:
+      context: .
+      dockerfile: Containerfile
