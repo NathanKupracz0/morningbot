@@ -16,7 +16,7 @@ When deploying, you may choose to deploy as a container, or deploy directly to y
 1. Clone the repository
 
 ```bash
-git clone https://github.com/davidlynch-sd/MorningBot
+git clone https://github.com/coillteoir/MorningBot
 ```
 
 2. 🚀 Install the dependencies.
@@ -27,9 +27,12 @@ go mod download
 
 ### Deployment and Development
 
-3. Token handling tbd.
+3. Add token to .env file
+```bash
+DISCORD_TOKEN=<discord token>
+```
 
-4. Go to `./config/config.yaml` and fill in the following:
+5. Go to `./config/config.yaml` and fill in the following:
 
 - The API keys for the News and Weather APIs,
 - The Discord server name,
