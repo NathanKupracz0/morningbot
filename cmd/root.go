@@ -119,7 +119,7 @@ to quickly create a Cobra application.`,
 			}
 
 			for _, phrase := range config.GoodMorningPhrases {
-				if !strings.Contains(phrase, newContent) {
+				if !strings.Contains(newContent, phrase) {
 					continue
 				}
 
